@@ -495,7 +495,7 @@ import pickle as pk
 import streamlit as st
 
 # ** Load your saved model **
-with open('model.pkl', 'rb') as f:
+with open('c:\Users\Tejas Gaikwad\Documents\car_model\model.pkl', 'rb') as f:
     model = pk.load(f)
 
 # ** CSS styles for professional UI **
@@ -741,3 +741,4 @@ if st.button("🚀 Predict Car Price"):
         unsafe_allow_html=True,
     )
     st.balloons()
+
