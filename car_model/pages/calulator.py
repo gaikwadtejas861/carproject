@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import math
 
 # ---- Professional UI CSS ----
@@ -132,3 +132,4 @@ df = pd.DataFrame(
 st.markdown(f'<div class="payment-schedule-title">Payment Schedule :</div>', unsafe_allow_html=True)
 payments_df = df[["Year", "Remaining Balance"]].groupby("Year").min()
 st.line_chart(payments_df)
+
