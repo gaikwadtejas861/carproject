@@ -495,7 +495,7 @@ import pickle as pk
 import streamlit as st
 
 # ** Load your saved model **
-with open('C:/Users/Tejas Gaikwad/Documents/car_model/model.pkl', 'rb') as f:
+with open(r'C:\Users\Tejas Gaikwad\Documents\car_model\model.pkl', 'rb') as f:
     model = pk.load(f)
 
 # ** CSS styles for professional UI **
